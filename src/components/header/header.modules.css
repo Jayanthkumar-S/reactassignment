@@ -1,0 +1,101 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 1px 1px 3px lightgray;
+    width: 100%;
+  }
+  .left-menu{
+  display: flex;
+  justify-content: center;
+  }
+  
+  .logo-item{
+    text-transform: uppercase;
+    font-size: 30px;
+  margin: 0px 60px;
+    font-weight: 1000;
+    font-family: 'Palanquin Dark', sans-serif;
+  cursor: pointer;
+  background-image: -webkit-linear-gradient(181deg,#0048ff,#0096ff),-webkit-linear-gradient(#000,#000);
+  background-image: -o-linear-gradient(181deg,#0048ff,#0096ff),-o-linear-gradient(#000,#000);
+  background-image: linear-gradient(269deg,#0048ff,#0096ff),linear-gradient(#000,#000);
+  color: #0084ff;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .logo-under{
+    font-size: 15px;
+    margin: 0 60px;
+  font-family: 'Palanquin Dark', sans-serif;
+  cursor: pointer;
+  }
+  .dropdown{
+    margin: 20px 0px;
+    cursor: pointer;
+   
+  }
+  
+  
+  #explor{
+    width: 20px;
+    border-style: none;
+    cursor: pointer;
+    scroll-behavior: smooth;
+    align-items: center;
+  
+  }
+  .right-menu{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+  
+  }
+  .menu-text{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+    min-width: 23em;
+   opacity: .6;
+  font-family: Raleway,sans-serif;
+   font-size: 15px;
+   font-weight: 500;
+   font-style: normal;
+  font-stretch: normal;
+
+  letter-spacing: .9px;
+   text-align: left;
+  color: rgba(0,0,0,.6);
+  
+  }
+  .btn{
+    background: #0084ff;
+    background: -webkit-linear-gradient(269deg,#0048ff,#0096ff);
+    background: -webkit-linear-gradient(181deg,#0048ff,#0096ff);
+    background: -o-linear-gradient(181deg,#0048ff,#0096ff);
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+  border: none;
+  font-size:  0.75em;
+  border-radius: 30px;
+  margin: 20px 60px;
+    padding: 0.2em 2em;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+  width: auto;
+  font-family: Raleway,sans-serif;
+  height: 40px;
+  margin-top: 20px;
+  text-align: center;
+  
+  }
+  @media (max-width:768px) {
+    .header { 
+      width: 120%;
+      
+    }
+  }

@@ -1,0 +1,14 @@
+body{
+  background-color: #efefef;
+}
+footer{
+  margin-bottom: 0;
+}
+
+  
+@media (max-width:768px) {
+  .header { 
+    width: 120%;
+    
+  }
+}
